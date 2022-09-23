@@ -1,0 +1,109 @@
+#herow{
+    background-image: url(../../assets/Illustrations/Wakanda/Pantherwakanda1.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: calc(100vh - 100px);
+    .herow{
+        h1{
+            @extend %sous-titre;
+            padding-top: 200px;
+            font-size: 50px;
+        }
+        h2{
+            @extend %sous_titre_wakanda;
+            padding: 15px 0;
+        }
+        p{
+            margin-top: 40px;
+            font-size: 14px;
+            width: 85%;
+            text-align: justify;
+            
+        }
+
+    }
+}
+
+#origine{
+    .origin_culte{
+        display: flex;
+        justify-content: space-between;
+        background-image: url(../../assets/Illustrations/Wakanda/Pantherwakanda2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        // height: calc(100vh - 100px);
+        .origin{
+            h2{
+                @extend %sous-titre;
+                padding: 15px 0;
+            }
+            p{
+                margin-top: 20px;
+                font-size: 14px;
+                width: 85%;
+                text-align: justify;
+            }
+        }
+        .div1{
+            height: 200px;
+            width: 85%;
+            border: 2px solid #021740;
+            background-color: #021740;
+            margin-top: 20px;
+            a{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        .culte{
+            h2{
+                @extend %sous-titre;
+                padding: 15px 0;
+            }
+            p{
+                margin-top: 20px;
+                font-size: 14px;
+                width: 85%;
+                text-align: justify;
+            }
+        }
+    }
+}
+
+#cinema{
+    .cine_afro{
+        display: flex;
+        justify-content: space-between;
+        .afro{
+            h2{
+                @extend %sous-titre;
+                padding: 15px 0;
+                width: 95%;
+            }
+            p{
+                margin-top: 20px;
+                font-size: 12px;
+                width: 95%;
+                text-align: justify;
+            }
+
+        }
+        .anecdote{
+            .div2{
+                h2{
+                    @extend %sous-titre;
+                    padding: 15px 0;
+                }
+                p{
+                    margin-top: 20px;
+                    font-size: 14px;
+                    width: 85%;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}

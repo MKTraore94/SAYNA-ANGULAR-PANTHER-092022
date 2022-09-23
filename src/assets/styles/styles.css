@@ -1,0 +1,522 @@
+@font-face {
+  font-family: "panthera";
+  src: url(../font/PantheraRegular-MVZ9J.ttf);
+}
+@font-face {
+  font-family: "beyno";
+  src: url(../font/FontsFree-Net-BEYNO.ttf);
+}
+@font-face {
+  font-family: "wakanda";
+  src: url(../font/WakandaForever-Regular.ttf);
+}
+@font-face {
+  font-family: "cantarell";
+  src: url(../font/Cantarell-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  background: radial-gradient(126.67% 350.28% at -21.35% 0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%, rgba(2, 23, 64, 0) 100%);
+  font-family: "cantarell";
+  font-size: 16px;
+  color: #fff;
+}
+
+#hero .hero .blackp h1 {
+  font-family: "panthera";
+  font-size: 50px;
+  color: #9e91b7;
+}
+
+#forme .forme .alphabet .titre h2, #heroe .hero_page .hero_text h1, #cinema .cine_afro .anecdote .div2 h2, #cinema .cine_afro .afro h2, #origine .origin_culte .culte h2, #origine .origin_culte .origin h2, #herow .herow h1, #protecteur .justicier .protect_text h2, #tchalla .tchalla .tchalla_text h2, #card .card .div2 .div2_text2 h2, #card .card .div1 .div1_text1 h2, #hero .hero .blackp h2 {
+  font-family: "beyno";
+  font-size: 30px;
+  color: #9e91b7;
+}
+
+#forme .savoir p span, #forme .forme .alphabet .titre .h2, #herow .herow h2 {
+  font-family: "wakanda";
+  font-size: 30px;
+  color: #9e91b7;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+.navbar .logo_header a {
+  text-decoration: none;
+}
+.navbar .menu ul li {
+  display: inline-block;
+  text-decoration: none;
+}
+.navbar_link {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 2rem;
+  padding-left: 12px;
+  font-family: "beyno";
+  font-size: 15px;
+}
+.navbar_link:hover {
+  text-decoration: underline;
+  color: #9e91b7;
+}
+.navbar_link_active {
+  color: #9e91b7;
+  border-bottom: 2px dotted #9e91b7;
+  padding-bottom: 6px;
+}
+
+footer {
+  background: linear-gradient(180deg, #3D2DA6 0%, #021740 90.43%);
+  color: #fff;
+  padding: 50px 0;
+  background-position: center;
+  background-size: auto;
+}
+footer .footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+footer .footer_text h2 {
+  text-decoration: none;
+  font-family: "Cantarell";
+  font-size: 16px;
+  letter-spacing: 0.28em;
+}
+footer .footer_text h2 ul {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 0;
+}
+footer .footer_text h2 ul li {
+  display: block;
+  text-decoration: none;
+}
+footer .footer_text h2 ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Cantarell";
+}
+footer .footer_text .icon_footer img {
+  padding: 5px;
+}
+footer .footer_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../Illustrations/Logo/footer1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 450px;
+  width: 50%;
+}
+footer p {
+  text-align: right;
+  font-family: "Cantarell";
+  font-size: 10px;
+  margin-right: 22%;
+  padding-bottom: 60%;
+}
+
+#hero {
+  height: calc(100vh - 100px);
+  background-image: url(../Illustrations/Accueil/Pantherhome1..png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center right;
+}
+#hero .hero .blackp {
+  width: 40%;
+  position: absolute;
+  top: 35%;
+}
+#hero .hero .blackp h2 {
+  padding: 15px 0;
+}
+#hero .hero .blackp a {
+  margin-top: 15px;
+  color: #fff;
+  font-size: 12px;
+}
+#hero .hero .blackp p {
+  margin-top: 10px;
+  font-size: 12px;
+  width: 70%;
+}
+
+.scroll .left-bar, .scroll .mini-left-bar {
+  border-left: 2px solid #9e91b7;
+  height: 452px;
+  position: fixed;
+  left: 30px;
+  top: 0;
+}
+.scroll .mini-left-bar {
+  height: 285px;
+  left: 60px;
+}
+.scroll .social {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 300px;
+  left: 55px;
+  padding: 10px 0;
+}
+.scroll .social img {
+  padding: 5px 0;
+}
+
+#card {
+  margin-bottom: 50px;
+}
+#card .card {
+  display: flex;
+}
+#card .card .div1 {
+  display: flex;
+  border: 1px solid #fff;
+  background-color: #021740;
+}
+#card .card .div1 .div1_card1 img {
+  padding: 0 10px;
+}
+#card .card .div1 .div1_text1 h2 {
+  padding-top: 40px;
+}
+#card .card .div1 .div1_text1 p,
+#card .card .div1 .div1_text1 a {
+  font-size: 12px;
+  color: #fff;
+  text-align: justify;
+  padding: 5px 0;
+}
+#card .card .div2 {
+  display: flex;
+  border: 1px solid #fff;
+  background-color: #021740;
+}
+#card .card .div2 .div2_card2 img {
+  padding: 0 10px;
+}
+#card .card .div2 .div2_text2 h2 {
+  padding-top: 40px;
+}
+#card .card .div2 .div2_text2 p,
+#card .card .div2 .div2_text2 a {
+  font-size: 12px;
+  color: #fff;
+  text-align: justify;
+  padding: 5px 0;
+}
+#card .card .div3 button {
+  background-color: #021740;
+  padding: 10px 17px;
+  border-radius: 50%;
+  position: absolute;
+  border: 2px solid white;
+}
+
+#tchalla .tchalla {
+  display: flex;
+  justify-content: space-between;
+}
+#tchalla .tchalla .tchalla_text {
+  width: 50%;
+}
+#tchalla .tchalla .tchalla_text h2 {
+  padding: 20px 0;
+}
+#tchalla .tchalla .tchalla_text p {
+  font-size: 14px;
+  text-align: justify;
+  padding: 10px 0;
+}
+#tchalla .tchalla .tchalla_img {
+  background-color: #fff;
+}
+#tchalla .tchalla .tchalla_img .tchalla_div2 strong {
+  color: #0733bc;
+}
+#tchalla .tchalla .tchalla_img .tchalla_div2 .p1 {
+  color: #0733bc;
+}
+
+#protecteur .justicier {
+  display: flex;
+  justify-content: space-between;
+}
+#protecteur .justicier .protect_text h2 {
+  padding-top: 40px;
+}
+#protecteur .justicier .protect_text p {
+  font-size: 14px;
+  color: #fff;
+  text-align: justify;
+  padding: 5px 0;
+}
+
+#formulaire {
+  height: 800px;
+}
+#formulaire .formulaire {
+  background-image: url(../Illustrations/Accueil/Pantherhome4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#formulaire .formulaire .contact h2 {
+  margin-bottom: 20px;
+}
+#formulaire .formulaire .contact input {
+  width: 520px;
+  height: 56px;
+  padding: 10px;
+  border-radius: 38px;
+  border: 1px solid #000;
+  background-color: transparent;
+}
+#formulaire .formulaire .contact textarea {
+  width: 520px;
+  height: 156px;
+  padding: 10px;
+  border-radius: 38px;
+  border: 1px solid #000;
+  background-color: transparent;
+}
+#formulaire .formulaire .contact button {
+  width: 174px;
+  height: 54px;
+  padding: 10px 0;
+  background-color: #df99f2;
+  border-radius: 38px;
+  margin: 20px auto;
+}
+
+#herow {
+  background-image: url(../Illustrations/Wakanda/Pantherwakanda1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 100px);
+}
+#herow .herow h1 {
+  padding-top: 200px;
+  font-size: 50px;
+}
+#herow .herow h2 {
+  padding: 15px 0;
+}
+#herow .herow p {
+  margin-top: 40px;
+  font-size: 14px;
+  width: 85%;
+  text-align: justify;
+}
+
+#origine .origin_culte {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../Illustrations/Wakanda/Pantherwakanda2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#origine .origin_culte .origin h2 {
+  padding: 15px 0;
+}
+#origine .origin_culte .origin p {
+  margin-top: 20px;
+  font-size: 14px;
+  width: 85%;
+  text-align: justify;
+}
+#origine .origin_culte .div1 {
+  height: 200px;
+  width: 85%;
+  border: 2px solid #021740;
+  background-color: #021740;
+  margin-top: 20px;
+}
+#origine .origin_culte .div1 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#origine .origin_culte .culte h2 {
+  padding: 15px 0;
+}
+#origine .origin_culte .culte p {
+  margin-top: 20px;
+  font-size: 14px;
+  width: 85%;
+  text-align: justify;
+}
+
+#cinema .cine_afro {
+  display: flex;
+  justify-content: space-between;
+}
+#cinema .cine_afro .afro h2 {
+  padding: 15px 0;
+  width: 95%;
+}
+#cinema .cine_afro .afro p {
+  margin-top: 20px;
+  font-size: 12px;
+  width: 95%;
+  text-align: justify;
+}
+#cinema .cine_afro .anecdote .div2 h2 {
+  padding: 15px 0;
+}
+#cinema .cine_afro .anecdote .div2 p {
+  margin-top: 20px;
+  font-size: 14px;
+  width: 85%;
+  text-align: justify;
+}
+
+#heroe .hero_page {
+  display: flex;
+  justify-content: space-between;
+}
+#heroe .hero_page .hero_img img {
+  width: 600px;
+  height: 600px;
+}
+#heroe .hero_page .hero_text h1 {
+  font-size: 50px;
+  padding-top: 100px;
+}
+#heroe .hero_page .hero_text .div1 {
+  width: 600px;
+  height: 600px;
+  padding: 180px 100px;
+  background-image: url(../Illustrations/Enigme/Pantherenigme2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#heroe .hero_page .hero_text .div1 p {
+  font-size: 14px;
+  color: #fff;
+  text-align: justify;
+  padding: 5px 0;
+}
+
+#forme .forme {
+  display: flex;
+}
+#forme .forme .alphabet .titre h2 {
+  padding-top: 40px;
+}
+#forme .forme .alphabet .titre p {
+  font-size: 14px;
+  color: #fff;
+  text-align: justify;
+  padding: 5px 0;
+  width: 90%;
+}
+#forme .forme .alphabet .titre .h2 {
+  padding: 30px 0;
+  letter-spacing: 0.28rem;
+  width: 90%;
+}
+#forme .forme .alphabet .form label {
+  color: #fff;
+  margin-bottom: 20px;
+  padding: 5px 0;
+}
+#forme .forme .alphabet .form input {
+  width: 520px;
+  height: 56px;
+  padding: 10px;
+  border-radius: 38px;
+  margin-bottom: 20px;
+  border-color: #df99f2;
+  background-color: transparent;
+}
+#forme .forme .alphabet .form button {
+  width: 174px;
+  height: 54px;
+  padding: 10px 0;
+  background-color: #df99f2;
+  border-radius: 38px;
+  margin: 0 auto;
+}
+#forme .savoir {
+  width: 800px;
+  height: 600px;
+  padding: 180px 100px;
+  background-image: url(../Illustrations/Enigme/Pantherenigme2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#forme .savoir p {
+  font-size: 16px;
+  color: #fff;
+  text-align: justify;
+  padding: 5px 0;
+  width: 100%;
+}
+#forme .savoir p span {
+  text-transform: uppercase;
+}
+
+.popupbox {
+  background-color: #0733bc;
+  width: 50%;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  display: none;
+}
+.popupbox .inside {
+  height: 300px;
+  padding: 50px;
+  margin: 30px;
+  background: linear-gradient(#df99f2, #0733bc);
+  border-radius: 20px;
+  border-bottom: 0;
+  box-shadow: 2px 2px 40px black;
+}
+.popupbox .inside .h1 {
+  padding: 50px;
+}
+.popupbox .inside button {
+  margin-top: 50px;
+  width: 300px;
+  height: 54px;
+  padding: 10px 0;
+  background-color: #df99f2;
+  border-radius: 38px;
+  font-size: 10px;
+  color: #9e91b7;
+}/*# sourceMappingURL=styles.css.map */

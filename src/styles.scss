@@ -1,6 +1,85 @@
-/* You can add global styles to this file, and also import other style files */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/*You can add global styles to this file, and also import other style files */
+
+@import './assets/styles/base';
+// @import './assets/styles/navbar';//
+// @import './assets/styles/footer';//
+
+
+
+// @import './assets/styles/popupbox';//
+
+// *{
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+// }
+
+// @font-face {
+//     font-family: 'panthera';
+//     src: url(./assets/font/PantheraRegular-MVZ9J.ttf);
+// }
+
+// @font-face {
+//     font-family: 'beyno';
+//     src: url(./assets/font/FontsFree-Net-BEYNO.ttf);
+// }
+
+// @font-face {
+//     font-family: 'wakanda';
+//     src: url(./assets/font/WakandaForever-Regular.ttf);
+// }
+
+// @font-face {
+//     font-family: 'cantarell';
+//     src: url(./assets/font/Cantarell-Regular.ttf);
+// }
+
+// $white:#fff;
+// $black:#000;
+// $light_pink:#f2cef2;
+// $pink:#df99f2;
+// $gray:#9e91b7;
+// $purple_primary:#3d2da6;
+// $blue:#0733bc;
+// $blue_dark:#021740;
+
+
+// body{
+//     background: radial-gradient(
+//         126.67% 350.28% at -21.35% 0%,
+//         #11213F 0%,
+//         #0B0B0B 39.1%,
+//         rgba(2, 23, 64,0.837641) 94.57%,
+//         rgba(2, 23, 64, 0) 100%
+//     );
+//     font-family: 'cantarell';
+//     font-size: 16px;
+//     color: #fff;
+// }
+
+%titre{
+    font-family: 'panthera';
+    font-size: 50px;
+    color: #9e91b7;
+}
+
+%sous-titre{
+    font-family: 'beyno';
+    font-size: 30px;
+    color: #9e91b7;
+}
+
+%sous_titre_wakanda{
+    font-family: 'wakanda';
+    font-size: 30px;
+    color: #9e91b7;
+}
+
+button{
+    width: 174px;
+    height: 54px;
+    padding: 10px 0;
+    background-color: #df99f2;
+    border-radius: 38px !important;
+    margin:20px auto;
 }
