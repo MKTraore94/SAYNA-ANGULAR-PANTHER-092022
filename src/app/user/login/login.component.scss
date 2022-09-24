@@ -1,0 +1,22 @@
+.hero-image {
+    background-image: url(../../../assets/Illustrations/Wakanda/Pantherwakanda1.png);
+    height: 800px;
+    background-position: center;
+    background-color: rgb(162, 54, 184);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .formulaire {
+    background: linear-gradient(to right, rgb(162, 36, 179), rgb(1, 92, 148));
+    max-width: 32%;
+    padding: 40px;
+    margin-top: -35%;
+    border-radius: 10px;
+    .form {
+      background-color: rgba(122, 122, 122, 0.848);
+      padding: 15px;
+      border-radius: 10px;
+    }
+  }
+  

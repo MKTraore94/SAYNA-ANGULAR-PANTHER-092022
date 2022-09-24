@@ -1,0 +1,15 @@
+.wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    background: rgb(75, 79, 85);
+    background: linear-gradient(
+      180deg,
+      rgb(97, 101, 107) 12%,
+      rgb(100, 15, 126) 95%
+    );
+    .image {
+      outline: 2px darkgray solid;
+    }
+  }
+  

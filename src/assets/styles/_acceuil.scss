@@ -36,37 +36,37 @@
 
 }
 
-.scroll{
-    .left-bar{
-        border-left: 2px solid #9e91b7;
-        height: 452px;
-        position: fixed;
-        left: 30px;
-        top: 0;
-    }
-    .mini-left-bar{
-        @extend .left-bar;
-        height: 285px;
-        left: 60px;
-    }
-    .social{
-        display: flex;
-        flex-direction: column;
-        position: fixed;
-        top: 300px ;
-        left: 55px;
-        padding: 10px 0;
-        img{
-            padding: 5px 0;
-        }
-    }
-}
+// .scroll{
+//     .left-bar{
+//         border-left: 2px solid #9e91b7;
+//         height: 452px;
+//         position: fixed;
+//         left: 30px;
+//         top: 0;
+//     }
+//     .mini-left-bar{
+//         @extend .left-bar;
+//         height: 285px;
+//         left: 60px;
+//     }
+//     .social{
+//         display: flex;
+//         flex-direction: column;
+//         position: fixed;
+//         top: 300px ;
+//         left: 55px;
+//         padding: 10px 0;
+//         img{
+//             padding: 5px 0;
+//         }
+//     }
+// }
 #card{
     margin-bottom: 50px;
     .card{
-        display: flex;
+        display: flex !important;
         .div1{
-            display: flex;
+            display: flex !important;
             border: 1px solid white;
             background-color: #021740;
             .div1_card1{
@@ -98,7 +98,7 @@
             }
         }
         .div2{
-            display: flex;
+            display: flex !important;
             border: 1px solid white;
             background-color: #021740;
             .div2_card2{
@@ -168,6 +168,15 @@
         .tchalla_img{
             background-color: white;
             .tchalla_div2{
+                .boutons{
+                    button{
+                        background-color: #021740!important;
+                        padding: 10px 17px !important;
+                        // border-radius: 50% !important;
+                        // position: absolute !important;
+                        border: 2px solid white !important;
+                    }
+                }
                 strong{
                     color: #0733bc;
                 }

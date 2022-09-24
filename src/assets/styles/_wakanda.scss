@@ -6,12 +6,16 @@
     height: calc(100vh - 100px);
     .herow{
         h1{
-            @extend %sous-titre;
+            font-family: 'beyno';
+            font-size: 30px;
+            color: #9e91b7;
             padding-top: 200px;
             font-size: 50px;
         }
         h2{
-            @extend %sous_titre_wakanda;
+            font-family: 'wakanda';
+            font-size: 30px;
+            color: #9e91b7;
             padding: 15px 0;
         }
         p{
@@ -19,6 +23,8 @@
             font-size: 14px;
             width: 85%;
             text-align: justify;
+            color: white;
+
             
         }
 
@@ -36,7 +42,9 @@
         // height: calc(100vh - 100px);
         .origin{
             h2{
-                @extend %sous-titre;
+                font-family: 'beyno';
+                font-size: 30px;
+                color: #9e91b7;
                 padding: 15px 0;
             }
             p{
@@ -44,6 +52,7 @@
                 font-size: 14px;
                 width: 85%;
                 text-align: justify;
+                color: white;
             }
         }
         .div1{
@@ -60,7 +69,9 @@
         }
         .culte{
             h2{
-                @extend %sous-titre;
+                font-family: 'beyno';
+                font-size: 30px;
+                color: #9e91b7;
                 padding: 15px 0;
             }
             p{
@@ -68,6 +79,7 @@
                 font-size: 14px;
                 width: 85%;
                 text-align: justify;
+                color: white;
             }
         }
     }
@@ -79,7 +91,9 @@
         justify-content: space-between;
         .afro{
             h2{
-                @extend %sous-titre;
+                font-family: 'beyno';
+                font-size: 30px;
+                color: #9e91b7;
                 padding: 15px 0;
                 width: 95%;
             }
@@ -88,13 +102,16 @@
                 font-size: 12px;
                 width: 95%;
                 text-align: justify;
+                color: white;
             }
 
         }
         .anecdote{
             .div2{
                 h2{
-                    @extend %sous-titre;
+                    font-family: 'beyno';
+                    font-size: 30px;
+                    color: #9e91b7;
                     padding: 15px 0;
                 }
                 p{
@@ -102,6 +119,7 @@
                     font-size: 14px;
                     width: 85%;
                     text-align: justify;
+                    color: white;
                 }
             }
         }

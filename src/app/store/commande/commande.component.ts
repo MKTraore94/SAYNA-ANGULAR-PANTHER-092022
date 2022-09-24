@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CartService } from 'src/app/services/cart.service';
 
 @Component({
   selector: 'app-commande',
@@ -6,10 +7,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./commande.component.scss']
 })
 export class CommandeComponent implements OnInit {
+  productsCommande: any;
+  grandTotal!: number;
 
-  constructor() { }
+  constructor(private cartService: CartService) { }
 
   ngOnInit(): void {
+    this.cartService.getProducts().subscribe((item)=>{
+      this.productsCommande = item;
+      this.calculTotal();
+
+    })
+  }
+
+
+  calculTotal(): void{
+    this.grandTotal =0;
+    this.productsCommande.forEach((item:any)=>{
+      this.grandTotal += item.quantity * item.Prix;
+    })
   }
 
 }
