@@ -85,14 +85,14 @@ window.onload = function() {
     });
 
 
-    $("img").on({
-        mouseenter: function() {
-            $(this).animate({ width: '+=10%', });
-        },
-        mouseleave: function() {
-            $(this).animate({ width: '-=10%', });
-        },
-    });
+    // $("img").on({
+    //     mouseenter: function() {
+    //         $(this).animate({ width: '+=10%', });
+    //     },
+    //     mouseleave: function() {
+    //         $(this).animate({ width: '-=10%', });
+    //     },
+    // });
 }
 
 
