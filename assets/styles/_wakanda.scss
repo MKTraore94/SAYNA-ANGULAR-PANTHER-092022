@@ -1,0 +1,127 @@
+#herow{
+    background-image: url(../../assets/Illustrations/Wakanda/Pantherwakanda1.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: calc(100vh - 100px);
+    .herow{
+        h1{
+            font-family: 'beyno';
+            font-size: 30px;
+            color: #9e91b7;
+            padding-top: 200px;
+            font-size: 50px;
+        }
+        h2{
+            font-family: 'wakanda';
+            font-size: 30px;
+            color: #9e91b7;
+            padding: 15px 0;
+        }
+        p{
+            margin-top: 40px;
+            font-size: 14px;
+            width: 85%;
+            text-align: justify;
+            color: white;
+
+            
+        }
+
+    }
+}
+
+#origine{
+    .origin_culte{
+        display: flex;
+        justify-content: space-between;
+        background-image: url(../../assets/Illustrations/Wakanda/Pantherwakanda2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        // height: calc(100vh - 100px);
+        .origin{
+            h2{
+                font-family: 'beyno';
+                font-size: 30px;
+                color: #9e91b7;
+                padding: 15px 0;
+            }
+            p{
+                margin-top: 20px;
+                font-size: 14px;
+                width: 85%;
+                text-align: justify;
+                color: white;
+            }
+        }
+        .div1{
+            height: 200px;
+            width: 85%;
+            border: 2px solid #021740;
+            background-color: #021740;
+            margin-top: 20px;
+            a{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        .culte{
+            h2{
+                font-family: 'beyno';
+                font-size: 30px;
+                color: #9e91b7;
+                padding: 15px 0;
+            }
+            p{
+                margin-top: 20px;
+                font-size: 14px;
+                width: 85%;
+                text-align: justify;
+                color: white;
+            }
+        }
+    }
+}
+
+#cinema{
+    .cine_afro{
+        display: flex;
+        justify-content: space-between;
+        .afro{
+            h2{
+                font-family: 'beyno';
+                font-size: 30px;
+                color: #9e91b7;
+                padding: 15px 0;
+                width: 95%;
+            }
+            p{
+                margin-top: 20px;
+                font-size: 12px;
+                width: 95%;
+                text-align: justify;
+                color: white;
+            }
+
+        }
+        .anecdote{
+            .div2{
+                h2{
+                    font-family: 'beyno';
+                    font-size: 30px;
+                    color: #9e91b7;
+                    padding: 15px 0;
+                }
+                p{
+                    margin-top: 20px;
+                    font-size: 14px;
+                    width: 85%;
+                    text-align: justify;
+                    color: white;
+                }
+            }
+        }
+    }
+}
